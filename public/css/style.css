@@ -1,0 +1,158 @@
+/* *{
+    background-color:blueviolet;
+} */
+
+body{
+    margin: 0;
+    background-color: rgb(86, 86, 248);
+}
+
+img{
+    float: left;
+    width: 65px;
+    height: 65px;
+    padding-left: 5%;
+}
+
+li.nama{
+    padding-top: 1.8%;
+    padding-left: 2%;
+    font-family: verdana;
+}
+
+form{
+    padding-left: 10%;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.inline{
+    max-width: 400px;
+    margin: auto;
+}
+
+.input-icons i{
+    position: absolute;
+}
+
+.input-icons{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fa-search{
+    padding: 8px;
+    min-width: 40px;
+}
+
+/* .input-field{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+} */
+
+input[type=text]{
+    width: 100%;
+    box-sizing:border-box;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 5px 30px 5px 40px;
+}
+
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:10%;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    overflow: hidden;
+    font-family:Verdana;
+    box-shadow: 0px 10px 40px lightgray;
+}
+
+ul.topnav li{
+    float:left;
+}
+
+ul.topnav li a{
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+ul.topnav li a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+ul.topnav li a:hover{
+    /* background-color: #555; */
+    color: #000;
+    opacity: 1.0;
+}
+
+.menu-atas{
+    padding-top: 15px;
+    margin-left: 60%;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 6px;
+    background-color: rgb(5, 146, 5);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+    letter-spacing: 1.5px;
+    font-family:'Franklin Gothic Medium';
+    opacity: 0.5;
+}
+
+/* .button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+} */
+
+/* .button span:after{
+    content: '\00bb';
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s; 
+} */
+
+/* .button:hover span{
+    padding-right:17px ;
+    opacity: 0;
+}
+
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
+} */
+
+.button:hover{
+    opacity: 1.0;
+}
+
+.line1{
+    /* padding : 100px; */
+    margin-top: 100px;
+}
